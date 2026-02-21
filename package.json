@@ -1,0 +1,12 @@
+{
+  "name": "git-branching-ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/app.js",
+  "dev": "cross-env APP_ENV=dev nodemon src/app.js",
+  "release": "cross-env APP_ENV=release node src/app.js",
+  "prod": "cross-env APP_ENV=prod node src/app.js"
+}
+}
