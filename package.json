@@ -16,5 +16,8 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.2",
     "globals": "^17.3.0"
-  }
+  },
+  "dependencies": {
+  "lodash": "4.17.20"
+}
 }
