@@ -22,7 +22,7 @@ app.get("/health", async (req, res) => {
 app.use("/users", userRoutes(service));
 
 // centralized error handler
-app.use((err, req, res, next) => {
+app.use((err, req, res, _next) => {
   const status = err.status || 500;
   res.status(status).json({ error: err.message || "Internal Server Error" });
 });
