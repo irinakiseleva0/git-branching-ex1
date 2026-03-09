@@ -10,6 +10,10 @@ loadEnv();
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Docker deployment is working");
+});
+
 const pool = createPool();
 const model = userModel(pool);
 const service = userService(model);
