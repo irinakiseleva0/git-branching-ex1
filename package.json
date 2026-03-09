@@ -1,7 +1,7 @@
 {
   "name": "git-branching-ex1",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a backend application built with **Node.js (Express)** and **PostgreSQL**, demonstrating:",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
@@ -20,5 +20,19 @@
   "dependencies": {
     "lodash": "4.17.15",
     "express": "4.16.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irinakiseleva0/git-branching-ex1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irinakiseleva0/git-branching-ex1/issues"
+  },
+  "homepage": "https://github.com/irinakiseleva0/git-branching-ex1#readme"
 }
