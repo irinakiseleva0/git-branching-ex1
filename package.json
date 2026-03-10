@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "lodash": "4.17.15",
-    "express": "4.16.0"
+    "express": "5.2.1"
   },
   "directories": {
     "test": "test"
